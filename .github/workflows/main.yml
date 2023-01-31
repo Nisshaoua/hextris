@@ -13,5 +13,5 @@ jobs:
       with:
         server: files.000webhost.com
         username: anissaesiee-it
-        password: RKb6?$WWFo<(,Q=^SmAl
+        password: ${{ secrets.FTP_PASSWORD }}
         server-dir: public_html/hextris/
